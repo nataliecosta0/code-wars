@@ -7,8 +7,7 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 import string
 
 def is_pangram(s):
-     abc = "abcdefghijklmnopqrstuvwxyz"
-    phrase = s.replace(",", "")
+    abc = "abcdefghijklmnopqrstuvwxyz"
     for letter in abc:
         if letter not in s.lower():
             return False
