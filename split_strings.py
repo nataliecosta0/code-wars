@@ -9,7 +9,6 @@ solution('abcdef') # should return ['ab', 'cd', 'ef']
 """
 
 def solution(s):
-    import ipdb; ipdb.set_trace()
     pair = ''
     two_letters = []
     for x in s:
